@@ -1,0 +1,65 @@
+{
+  "goldika": {
+    "scraper_id": "0ec5e313-d8c7-40b8-8344-942651a6d6e7",
+    "endpoint": "get_gold_price",
+    "url": "https://goldika.ir",
+    "enabled": true,
+    "priority": 1
+  },
+  "wallgold": {
+    "scraper_id": "b9ecd128-6522-4229-8535-c7a7738379da",
+    "endpoint": "get_gold_price",
+    "url": "https://wallgold.ir",
+    "enabled": true,
+    "priority": 2
+  },
+  "milligold": {
+    "scraper_id": "PENDING_RETRY",
+    "endpoint": "get_gold_price",
+    "url": "https://milligold.com",
+    "enabled": false,
+    "priority": 0
+  },
+  "talasea": {
+    "scraper_id": "PENDING_RETRY",
+    "endpoint": "get_gold_price",
+    "url": "https://talasea.ir",
+    "enabled": false,
+    "priority": 0
+  },
+  "melligold": {
+    "scraper_id": "PENDING_RETRY",
+    "endpoint": "get_gold_price",
+    "url": "https://melligold.ir",
+    "enabled": false,
+    "priority": 9
+  },
+  "digikala_gold": {
+    "scraper_id": "PENDING_DISPATCH",
+    "endpoint": "get_gold_price",
+    "url": "https://www.digikala.com/search/category-gold/",
+    "enabled": false,
+    "priority": 9
+  },
+  "technogold": {
+    "scraper_id": "PENDING_DISPATCH",
+    "endpoint": "get_gold_price",
+    "url": "https://technogold.ir",
+    "enabled": false,
+    "priority": 9
+  },
+  "daric": {
+    "scraper_id": "PENDING_DISPATCH",
+    "endpoint": "get_gold_price",
+    "url": "https://daric.ir",
+    "enabled": false,
+    "priority": 9
+  },
+  "talapp": {
+    "scraper_id": "PENDING_DISPATCH",
+    "endpoint": "get_gold_price",
+    "url": "https://talapp.ir",
+    "enabled": false,
+    "priority": 9
+  }
+}
