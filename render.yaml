@@ -4,10 +4,16 @@ services:
     env: python
     plan: free
     region: oregon
-    buildCommand: pip install -r requirements.txt
+    buildCommand: |
+      apt-get update && apt-get install -y chromium-browser chromium-chromedriver
+      pip install -r requirements.txt
     startCommand: python master_bot.py
     envVars:
       - key: PORT
         value: "10000"
       - key: PYTHONUNBUFFERED
         value: "1"
+      - key: CHROME_BIN
+        value: "/usr/bin/chromium-browser"
+      - key: CHROMEDRIVER_PATH
+        value: "/usr/bin/chromedriver"
